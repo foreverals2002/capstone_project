@@ -8,4 +8,5 @@ urlpatterns = [
     path(r'morning/<int:test>/', views.morning),
     path('testjson/', views.TestJson.as_view()),
     path('files/', views.FileUpload.as_view()),
+    path('account/', views.UserProfile.as_view()),
 ]
